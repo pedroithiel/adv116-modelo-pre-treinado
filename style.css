@@ -1,0 +1,22 @@
+#buton:hover {
+    background-color: #f51707;
+    padding: 7px 36px;
+    font-size: 20px;
+    margin: 6px 4px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px purple;
+    }
+    to{
+        box-shadow: 1px 1px 38px red;
+    }
+    
+}
